@@ -14,14 +14,28 @@ export default function Home() {
         <h1 className={styles.title}>
           Página em construção
         </h1>
-
-        <h2>Projetos</h2>
+        
         <ul>
-          <li>Games</li>
-          <li>Apps</li>
-          <li>Websites</li>
-          <li>Chatbots</li>
+          <li>Resumo/Sobre mim</li>
+          <li>
+            Projetos/Artigos/Videos/Skills 
+            <ul>
+              <li>Games</li>
+              <li>Apps</li>
+              <li>Websites</li>
+              <li>
+                Chatbots
+                <nav>
+                  <ul>
+                    <li>{/* <img src="" alt="manimarts bot logo"></img> */}<a href="#">Manimarts</a></li>
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+          </li>
         </ul>
+
+        
       </main>
     </div>
   )
