@@ -14,15 +14,36 @@ export default function Home() {
         <h1 className={styles.title}>
           Página em construção
         </h1>
+
+        <p>Apenas anotando o que pensei em criar</p>
         
         <ul>
           <li>Resumo/Sobre mim</li>
           <li>
-            Projetos/Artigos/Videos/Skills 
+            O que estou fazendo hoje
+            <ul>
+              <li>Cursos</li>
+            </ul>
+          </li>
+          <li>
+            Projetos/Artigos/Videos/Skills/Empresas/Status(em andamento, concluído)
             <ul>
               <li>Games</li>
               <li>Apps</li>
-              <li>Websites</li>
+              <li>
+                Websites
+                <ul>
+                  <li>PDI</li>
+                  <li>Planning Pocker Free</li>
+                </ul>
+              </li>
+              <li>
+                Extensões
+                <ul>
+                  <li>Github Team Pull Requests for VSCode</li>
+                  <li>Github Team Pull Requests for Chrome</li>
+                </ul>
+              </li>
               <li>
                 Chatbots
                 <nav>
